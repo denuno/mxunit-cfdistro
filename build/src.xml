@@ -1,29 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <src>
 	<project>
-	<!--
-		<src dest="@src.dir@/../" type="svn" 
-		uri="http://subversion.assembla.com/svn/cfdistro/trunk/cfdistro" 
+		<src dest="@src.dir@/../" type="git" 
+		uri="git://github.com/denuno/mxunit-cfdistro.git" 
 		user="" password="" />
-	-->
 	</project>
 	<sources>
+		<src dest="@src.dir@/mxunit" type="svn" 
+		uri="http://mxunit.googlecode.com/svn/mxunit/tags/2.0.1"
+		user="" password="" />
 <!-- 
 		<src dest="@src.dir@/mxunit" type="svn" 
 		uri="http://mxunit.googlecode.com/svn/mxunit/trunk"
 		user="" password="" />
 
-		<src dest="@src.dir@/cfwheels" type="svn" 
-		uri="http://cfwheels.googlecode.com/svn/trunk/" 
-		user="" password="" />
-				
-		<src dest="@src.dir@/ModelGlue" type="svn" 
-		uri="http://svn.model-glue.com/trunk/ModelGlue/" 
-		user="" password="" />
-
 		<src dest="@src.dir@/coldbox" type="git" 
 		uri="http://github.com/ColdBox/coldbox-platform.git" 
 		user="" password="" />
+		<src dest="@src.dir@/coldbox/dashboard" type="git" 
+		uri="http://github.com/ColdBox/coldbox-dashboard.git" 
+		user="" password="" path="src/" />
 
 		coldspring 1.2
 		<src dest="./" type="cvs" 
