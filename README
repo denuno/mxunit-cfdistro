@@ -1,0 +1,15 @@
+run 
+
+mxunit-cfdistro.bat start
+
+or
+
+mxunit-cfdistro.sh start
+
+and to stop
+
+mxunit-cfdistro.bat stop
+
+or
+
+mxunit-cfdistro.sh stop
